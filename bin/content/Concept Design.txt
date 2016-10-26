@@ -1,0 +1,52 @@
+G&T Property Solutions
+
+What purpose/functions should this website have?
+-More information (static)
+-Online docs for Lease and Rental application. *Link to the tenant background search*
+-Specific information about each property
+	Directions
+	Price
+	Avg Utilies
+	Schools in the area
+	Rooms/bathrooms
+	Description/Pictures
+	Amenities
+	*google map link* exact address
+
+Contact us/about us
+	Email
+	Phone#
+	Hours
+	mailing address
+
+?? Toggleable "is available" ??
+
+What general layout to the pages?
+
+
+What general layout to the content of those pages?
+-Use amazon style thumbnails to view images of the properties
+-Blogpost-like font style in righthand column (about 6-6)
+
+Notes:
+pictures on main carousel:
+	duplex (both halfs) *with address*
+	Farm (three doors) *with apartment letter @ bottom*
+	photo of owners
+
+Menu Bar
+	Icon (go home)
+	Properties ^
+		Payson Duplex:^
+			335 North 600 East
+			595 East  300 North
+		Farm:^
+			Apartment A
+			Apartment B
+			Apartment C
+	Forms ^
+		Rental application
+		Sample Lease
+		BackgroundCheck
+	Make Payment
+	Contact us
