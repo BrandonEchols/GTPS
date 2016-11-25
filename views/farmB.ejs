@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>595 E 300 N</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="/javascripts/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="/javascripts/bootstrap.min.js"></script>
+
+    <!--My StyleSheet-->
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+</head>
+<body>
+<div class="jumbotron" id="mybox-wrapper">
+
+    <!--Nav-Bar-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+
+            <button type="button" class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">G&T Property Solutions</a>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Properties<b
+                                    class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Payson Duplex</li>
+                            <li><a href="#">335 North 600 East</a></li>
+                            <li class="active"><a href="#">595 East 300 North</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Payson Farm</li>
+                            <li><a href="#">Apartment A</a></li>
+                            <li><a href="#">Apartment B</a></li>
+                            <li><a href="#">Apartment C</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forms<b
+                                    class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Rental Application</a></li>
+                            <li><a href="#">Sample Lease</a></li>
+                            <li><a href="#">Background Check</a></li>
+                        </ul>
+                    </li>
+                    <li class="disabled"><a href="#">Make Payment</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Page-->
+    <div class="container-fluid">
+
+        <!--Title-->
+        <div class="row text-center" style="margin-bottom: 20px">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h3>Payson Duplex</h3>
+                <h3>595 East 300 North</h3>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <!--Carousel, only shown on sm and xs-->
+        <div class="row myCarousel hidden-md hidden-lg myCarouselPhone">
+            <div id="myCarousel" class="carousel slide col-md-12" style="max-height: 300px" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img style="max-height: 300px; width: 100%" src="/images/Duplex/595E_300N/01.JPG" alt="Pictures of home">
+                    </div>
+                    <div class="item">
+                        <img style="max-height: 300px; width: 100%" src="/images/Duplex/595E_300N/02.JPG" alt="Pictures of home">
+                    </div>
+                    <div class="item">
+                        <img style="max-height: 300px; width: 100%" src="/images/Duplex/595E_300N/03.JPG" alt="Pictures of home">
+                    </div>
+                    <div class="item">
+                        <img style="max-height: 300px; width: 100%" src="/images/Duplex/595E_300N/04.JPG" alt="Pictures of home">
+                    </div>
+                    <div class="item">
+                        <img style="max-height: 300px; width: 100%" src="/images/Duplex/595E_300N/05.JPG" alt="Pictures of home">
+                    </div>
+                    <div class="item">
+                        <img style="max-height: 300px; width: 100%" src="/images/Duplex/595E_300N/06.JPG" alt="Pictures of home">
+                    </div>
+                    <div class="item">
+                        <img style="max-height: 300px; width: 100%" src="/images/Duplex/595E_300N/07.JPG" alt="Pictures of home">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!--Content-->
+        <div class="row">
+            <!--Thumbnail images-->
+            <div class="col-md-1 hidden-sm hidden-xs">
+                <a onclick="imgv.changeImage(imgPath, 1);">
+                    <img class="thumbnail" src="/images/Duplex/595E_300N/01.JPG"></a>
+                <a onclick="imgv.changeImage(imgPath, 2);">
+                    <img class="thumbnail" src="/images/Duplex/595E_300N/02.JPG"></a>
+                <a onclick="imgv.changeImage(imgPath, 3);">
+                    <img class="thumbnail" src="/images/Duplex/595E_300N/03.JPG"></a>
+                <a onclick="imgv.changeImage(imgPath, 4);">
+                    <img class="thumbnail" src="/images/Duplex/595E_300N/04.JPG"></a>
+                <a onclick="imgv.changeImage(imgPath, 5);">
+                    <img class="thumbnail" src="/images/Duplex/595E_300N/05.JPG"></a>
+                <a onclick="imgv.changeImage(imgPath, 6);">
+                    <img class="thumbnail" src="/images/Duplex/595E_300N/06.JPG"></a>
+                <a onclick="imgv.changeImage(imgPath, 7);">
+                    <img class="thumbnail" src="/images/Duplex/595E_300N/07.JPG"></a>
+            </div>
+            <!--Image Viewer Window-->
+            <div class="col-md-5 hidden-sm hidden-xs">
+                <span class="imageViewerBack crop">
+                    <img class="imageViewer img-responsive myimg img-rounded" id="imgBox" src="/images/Duplex/595E_300N/01.JPG" alt="Pictures of the home">
+                </span>
+            </div>
+            <!--Table contents-->
+            <div class="col-md-6">
+                <div>
+                    <table class=" table table-striped table-bordered" style="max-width: 100%">
+                        <tr>
+                            <th>Rooms:</th>
+                            <td>4 bed, 3 bath</td>
+                        </tr>
+                        <tr>
+                            <th>Size:</th>
+                            <td>1840ft^2</td>
+                        </tr>
+                        <tr>
+                            <th>Amenities:</th>
+                            <td>Laundry and Storage Rooms, attached master bathroom</td>
+                        </tr>
+                        <tr class="danger">
+                            <th>Available:</th>
+                            <td>Currently unavailable</td>
+                        </tr>
+                        <tr>
+                            <th>Description:</th>
+                            <td>Well maintained; fully fenced back yard with grass to play on; garden areas, garage; separate laundry room; good-sized bedrooms; 3 walk-in closets;
+                                main floor has 1 bedroom and 2 baths; basement has 3 more bedrooms, another bath, and a large storage room (with built-in shelving)
+                                <br>
+                                Beautiful southern exposure windows for lots of light and warmth in the winter months. Large corner lot. Great neighbors.
+                                Located in a peaceful and quiet small town south of Provo for easy commuting.
+                                <br>
+                                No smoking of any kind allowed anywhere on the property.
+                                </td>
+                        </tr>
+                        <tr>
+                            <th>Street Address:</th>
+                            <td>595 East 300 North
+                                Payson, Utah  84651</td>
+                        </tr>
+                        <tr>
+                            <th>Rent:</th>
+                            <td>$1150/month</td>
+                        </tr>
+                        <tr>
+                            <th>Deposit:</th>
+                            <td>$1,150 (with $900 refundable upon passed cleaning check)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--Duplex Blurb content-->
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 jumbotron myjumbotron">
+                <p>
+                    Schools:
+                    <br>- Grade School: Barnett (<a href="http://barnett.nebo.edu/">http://barnett.nebo.edu/</a>)
+                    <br>- Junior High: Salem Hills Junior High School (<a href="http://sajhs.nebo.edu/">http://sajhs.nebo.edu/</a>)
+                    <br>- High School: Salem Hills High School (<a href="http://shhs.nebo.edu/">http://shhs.nebo.edu/</a>)
+                </p><p>
+                    Average utilities = $200/month
+                    <br><br>
+                    Payson provides sewer, water, electric, garbage
+                    <a href="https://paysonutah.org/departments/administration/utility-billing">https://paysonutah.org/departments/administration/utility-billing</a>
+                    <br>- Contact info:
+                    801-465-5200
+                    <br>- By mail:
+                    Payson City Utilities
+                    439 W Utah Ave
+                    Payson, UT 84651
+                    <br>
+                </p><p>
+                    Questar provides natural gas
+                    <a href="https://www.questargas.com">https://www.questargas.com</a>/
+                    <br>- Contact info:
+                    801-324-5111 or Toll-free 800-323-5517
+                    <br>- By mail:
+                    Customer Service
+                    PO Box 45360
+                    Salt Lake City, UT 84145-0360
+                    <br>- Emergency: 800-767-1689
+                </p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <!--download application now button-->
+        <div class="row">
+            <div class="col-sm-12 centered" style="margin-top: 25px;">
+                <button class="btn">Download Application</button>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="row">
+            <footer class="col-sm-12 text-center" style="margin-top: 20px">
+                <a href="/contactInfo"><p class="white">Contact us</p></a>
+            </footer>
+        </div>
+
+    </div>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="/javascripts/ImageViewer.js"></script>
+    <script>
+        var imgv = new ImageViewer();
+        var imgPath = "/images/Duplex/595E_300N/";
+    </script>
+</div>
+</body>
+</html>
