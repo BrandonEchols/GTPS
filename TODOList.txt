@@ -1,0 +1,18 @@
+1.Add Contact Info page
+    a.Check all hyperlinks and make sure they are working
+2.Add 'noContentPage' for apartments that don't have pics and info yet
+    a.Change routes so that any request that goes to a page with no content will go to 'noContent' page.
+3.Add 'BackgroundSearchInfo' page
+    a.Check all links to background searches
+4.Add pdf downloads for the forms and application
+    a.test all links to download forms/application
+5.Change content on 'home' page in the box below carousel to have actual content. (MUST GET CONTENT)
+    a. Change gps logo to actual logo
+    b. Change font color on "welcome Home" to show up better
+
+
+
+Final steps:
+
+::Once changes to apartment page are finished (IE links fixed, etc)::
+Copy over apartment pages that don't have content with the corrected version of DuplexA (the only one with content)
